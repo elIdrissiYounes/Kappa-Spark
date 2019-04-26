@@ -10,7 +10,10 @@ This a maven based project, a simple mvn package would build the project and cre
 a Spark Streaming jar that can be run on different spark configurations (Single node, Cluster mode)
  
 ------------------------------------------------------------------------------------------------------
-Other tools should be set up to run the application a Kafka server with zookeper
-Elasticsearch and Kibana, please refer to the Elastic Stack website to set these two latter platforms
+Other tools should be set up to run the application:
+--> A Kafka server with zookeper
+--> Elasticsearch and Kibana 
+
+please refer to the Elastic Stack website to set these two latter platforms
 
 For the kafka message broker, a topic should be created and changed in the config file of this application, as long as the IP addresses of all different concerned systems.
